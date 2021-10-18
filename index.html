@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black Jack || Gaming</title>
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container mt-2">
+        <div class="title">
+            <h2>Black Jack Game</h2>
+            <div class="board">
+                Let's to play
+            </div>
+        </div>
+        <div class="display">
+            <div class="user-display">
+                <div class="mark-container bg-secondary mt-1">
+                    your score : 0
+                </div>
+                <div class="jack-box mt-2">
+                    <div class="img-container">
+                        <img src="" alt="">
+                    </div>
+                </div>
+            </div>
+            <div class="computer-display">
+                <div class="mark-container bg-secondary mt-1">
+                    jhon's score : 0
+                </div>
+                <div class="jack-box mt-2">
+                    <div class="img-container">
+                    </div>
+                </div>
+            </div>
+            <div class="btn-box">
+                <button class="btn-primary pull">pull</button>
+                <button class="btn-dark race">race</button>
+                <button class="btn-danger reset">reset</button>
+            </div>
+            <div class="record">
+                <table class="table table-bordered table-dark">
+                    <thead>
+                        <tr>
+                            <th></th>
+                            <th>win</th>
+                            <th>loose</th>
+                            <th>draw</th>
+                            <th>money($)</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>you</td>
+                            <td class="youWin">0</td>
+                            <td class="youLoose">0</td>
+                            <td class="youDraw">0</td>
+                            <td class="youPose">10000</td>
+                        </tr>
+                        <tr>
+                            <td>jhon</td>
+                            <td class="jhonWin">0</td>
+                            <td class="jhonLoose">0</td>
+                            <td class="jhonDraw">0</td>
+                            <td class="jhonPose">10000</td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
+    </div>
+    <script src="app.js"></script>
+</body>
+
+</html>

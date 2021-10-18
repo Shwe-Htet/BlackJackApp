@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #444444;
+}
+
+.title {
+    height: 60px;
+    width: 100%;
+    font-size: larger;
+    font-family: cursive;
+    background-color: #bcde99;
+    position: relative;
+}
+
+.display {
+    display: flex;
+    height: 80vh;
+    position: relative;
+}
+
+.board {
+    position: absolute;
+    bottom: 0;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    font-size: 24px;
+    color: #fef;
+    font-family: serif;
+    font-style: oblique;
+    font-weight: bolder;
+}
+
+button {
+    padding: 5px 15px;
+    border-radius: 1%;
+}
+
+.user-display {
+    width: 50%;
+    height: 100%;
+    background-color: #ddd;
+    background-image: url(you.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.computer-display {
+    width: 50%;
+    height: 100%;
+    background-color: #eee;
+    background-image: url(jhon.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.mark-container {
+    width: 200px;
+    height: 40px;
+    border-radius: 20%;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    color: #faf;
+    font-size: 20px;
+    letter-spacing: 2px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    display: grid;
+    place-items: center;
+    text-transform: capitalize;
+}
+
+.btn-box {
+    position: absolute;
+    bottom: 120px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+}
+
+.record {
+    margin-left: 50%;
+    transform: translateX(-50%);
+    background-color: liner-gradient(to right, #ddd, #eee);
+    position: absolute;
+    width: 280px;
+    height: 30px;
+    bottom: 80px;
+    text-transform: capitalize;
+}
+
+th,
+td {
+    text-align: center;
+}
+
+.jack-box {
+    /* background-color: #fff; */
+    height: 200px;
+    width: 350px;
+    margin: 50%;
+    transform: translate(-50%, 0%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    margin: 0 10px;
+}
+
+img {
+    margin: 2px;
+    scale: 0;
+    transition: all .5s ease-in-out;
+}
+
+.fullScale {
+    scale: 1;
+}
